@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/src/lab3 -g -fPIC -g -std=gnu++11 -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_opt_loop_unrolling.cpp.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_opt_loop_unrolling.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_baseline.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/src/lab3 -g -fPIC -g -std=gnu++11 -o src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_opt_avx.cpp.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_opt_avx.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_baseline.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/src/lab3 -g -fPIC -g -fopenmp -std=gnu++11 -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_opt_openmp.cpp.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_openmp.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_openmp.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/src/lab3 -g -fPIC -g -fopenmp -std=gnu++11 -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/openmp_gemm_baseline.cpp.o -c /home/jr/arch/lab3/src/lab3/openmp_gemm_baseline.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/openmp_gemm_baseline.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/src/lab3 -g -fPIC -g -fopenmp -std=gnu++11 -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/openmp_gemm_opt.cpp.o -c /home/jr/arch/lab3/src/lab3/openmp_gemm_opt.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/openmp_gemm_opt.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_opt_avx.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -I/home/jr/arch/lab3/src/lab3  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_baseline.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.unittest.dir/test_gemm_kernel_opt_loop_unrolling.cpp.o -c /home/jr/arch/lab3/src/lab3/test_gemm_kernel_opt_loop_unrolling.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/test_gemm_kernel_opt_loop_unrolling.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.unittest.dir/gemm_kernel_opt_loop_unrolling.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_loop_unrolling.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.unittest.dir/gemm_kernel_baseline.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_baseline.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_avx.unittest.dir/test_gemm_kernel_opt_avx.cpp.o -c /home/jr/arch/lab3/src/lab3/test_gemm_kernel_opt_avx.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/test_gemm_kernel_opt_avx.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_avx.unittest.dir/gemm_kernel_opt_avx.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -fPIC -g -fopenmp -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.unittest.dir/test_openmp_gemm.cpp.o -c /home/jr/arch/lab3/src/lab3/test_openmp_gemm.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/test_openmp_gemm.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -fPIC -g -fopenmp -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.unittest.dir/openmp_gemm_opt.cpp.o -c /home/jr/arch/lab3/src/lab3/openmp_gemm_opt.cpp",
+  "file": "/home/jr/arch/lab3/src/lab3/openmp_gemm_opt.cpp"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/gcc -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest  -masm=att -g -fPIC -g -o src/lab3/CMakeFiles/lab3_gemm_opt_openmp.unittest.dir/gemm_kernel_opt_avx.S.o -c /home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S",
+  "file": "/home/jr/arch/lab3/src/lab3/gemm_kernel_opt_avx.S"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/build/_deps/googletest-src/googlemock/include -I/home/jr/arch/lab3/build/_deps/googletest-src/googlemock -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fPIC -g -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jr/arch/lab3/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/jr/arch/lab3/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googlemock/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googlemock -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fPIC -g -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jr/arch/lab3/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/jr/arch/lab3/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -I/home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -I/home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fPIC -g -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/jr/arch/lab3/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/jr/arch/lab3/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jr/arch/lab3/build",
+  "command": "/usr/bin/g++ -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest/include -isystem /home/jr/arch/lab3/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fPIC -g -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/jr/arch/lab3/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/jr/arch/lab3/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+}
+]

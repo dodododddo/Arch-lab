@@ -1,0 +1,5 @@
+if(EXISTS "/home/jr/arch/lab3/build/src/lab3/lab3_gemm_opt_loop_unrolling.unittest[1]_tests.cmake")
+  include("/home/jr/arch/lab3/build/src/lab3/lab3_gemm_opt_loop_unrolling.unittest[1]_tests.cmake")
+else()
+  add_test(lab3_gemm_opt_loop_unrolling.unittest_NOT_BUILT lab3_gemm_opt_loop_unrolling.unittest_NOT_BUILT)
+endif()

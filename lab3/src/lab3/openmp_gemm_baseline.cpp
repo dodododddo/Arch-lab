@@ -86,7 +86,7 @@ void openmp_gemm_baseline(int thread_num, float *C, float *A, float *B, uint64_t
         // 调用内核计算
         gemm_kernel_opt_avx(C_padding, A_padding, B_padding, (dim_m_per_thread + m_padding),
                                  (dim_n_per_thread + n_padding), K);
-
+    
         // 拷回数据
         for (int m = thread_m_start; m < thread_m_end; m++) {
             memcpy(C + m * N + thread_n_start,

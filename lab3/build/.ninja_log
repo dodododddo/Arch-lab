@@ -1,5 +1,15 @@
 # ninja log v5
 0	8	1733218454882332951	src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_baseline.S.o	d710d9cec34f4bfc
+1	26	1733219145852257752	src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/openmp_gemm_baseline.cpp.o	11ea9de4d079ff9
 0	206	1733218455082332932	src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_opt_loop_unrolling.cpp.o	de9e89397c2dfeca
+0	9	1733218767702297076	src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_baseline.S.o	7b1ecf94d287ad8e
 1	9	1733218533492324486	src/lab3/CMakeFiles/lab3_gemm_opt_loop_unrolling.dir/gemm_kernel_opt_loop_unrolling.S.o	866e7da5e3bec7b3
+1	205	1733219792282180013	src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_opt_avx.cpp.o	44aca4547d19509c
+1	12	1733219145842257751	src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_baseline.S.o	8d861d79d55754fb
+0	187	1733219146012257737	src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_opt_openmp.cpp.o	3f6391526de9a9f1
 9	160	1733218533642324472	dist/bins/lab3_gemm_opt_loop_unrolling	34f34be856741df
+0	8	1733219834742176476	src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_opt_avx.S.o	fa563a1432c14f40
+8	159	1733219834892176457	dist/bins/lab3_gemm_opt_avx	5a268c6dff8d2897
+1	12	1733219145842257751	src/lab3/CMakeFiles/lab3_gemm_opt_openmp.dir/gemm_kernel_opt_avx.S.o	ecad1084c3d183c7
+0	8	1733219991592156324	src/lab3/CMakeFiles/lab3_gemm_opt_avx.dir/gemm_kernel_opt_avx.S.o	fa563a1432c14f40
+8	141	1733219991722156312	dist/bins/lab3_gemm_opt_avx	5a268c6dff8d2897

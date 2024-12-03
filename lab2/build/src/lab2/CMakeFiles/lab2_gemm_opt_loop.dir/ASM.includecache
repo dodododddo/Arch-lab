@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jr/arch/lab2/src/lab2/gemm_kernel_opt_loop.S
+
+/home/jr/arch/lab2/src/lab2/gemm_kernel_opt_prefetch.S
+
